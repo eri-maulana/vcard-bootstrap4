@@ -1,0 +1,58 @@
+body {
+   font-family : 'Monstserrat', sans-serif;
+}
+
+.card {
+   background-color: #050A27 !important;
+   min-height: 350px;
+}
+
+nav, a {
+   text-transform: uppercase;
+   color: white;
+   font-size: 16px;
+}
+
+nav a.active{
+   color: #475CFD !important;
+   font-weight: bold !important;
+}
+
+nav a:hover{
+   color: #475CFD !important; 
+}
+
+nav h5{
+   font-weight: bold !important;
+
+}
+
+.main {
+   color: #fff;
+}
+
+.main h1 {
+   font-weight: 100;
+}
+
+.main h1 span {
+   color: #475CFD !important;
+   font-weight: 600 !important;
+}
+
+.main p {
+   font-size: 16x !important;
+   text-transform: capitalize !important;
+}
+
+.card-body {
+   position: relative !important;
+   overflow: hidden !important;
+}
+
+.bg-img{
+   position: absolute;
+   right: -50px !important;
+   botton: 0 !important;
+   width: 45% !important;
+}
